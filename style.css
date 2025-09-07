@@ -1,0 +1,83 @@
+/*************** Reset *********************/
+* {
+  margin: 10px 10px;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: antiquewhite;
+
+  body {
+    margin-bottom: 10em 10em;
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  h1 {
+    color: rgb(86, 49, 72);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Funnel Sans", sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  h2 {
+    color: rgb(223, 100, 180);
+    font-weight: bold;
+    font-family: "Funnel Sans", sans-serif;
+    text-align: center;
+    padding: 10px;
+  }
+  h3 {
+    color: rgb(219, 118, 157);
+    font-weight: bold;
+    font-family: "Funnel Sans", sans-serif;
+    text-align: center;
+    padding: 10px;
+  }
+
+  p {
+    color: rgb(234, 56, 98);
+    text-align: justify;
+    font-family: "DM Serif Text", serif;
+    text-wrap: pretty;
+    overflow: break-word;
+    hyphens: auto;
+  }
+  #paragrapgspecial {
+    text-align: center;
+  }
+
+  button {
+    background-color: rgb(86, 49, 72);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 100px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: bold;
+  }
+  dt {
+    background-color: rgb(223, 100, 180);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+  }
+  dd {
+    background-color: rgb(255, 192, 203);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+  }
+}
